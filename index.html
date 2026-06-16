@@ -6,6 +6,12 @@
     <meta name="theme-color" content="#0a0a0f" />
     <meta name="description" content="handyCalc — smart calculator with natural math rendering, equation solver, graphing, unit & currency converter" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧮</text></svg>" />
+    <!-- PWA: installable + offline (relative paths resolve under the GitHub Pages base) -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.svg" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="handyCalc" />
     <title>handyCalc</title>
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
